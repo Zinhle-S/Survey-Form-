@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="elite/style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+    <h1 class="title">Online Yoga Class Survey Form</h1>
+    <p id="description">Find Your Balance, Inside and Out</p>
+    </header>
+</div>
+<div class="survey-wrap">
+    <form id="survey-form">
+    <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input class="form-suit" type="text" placeholder="Fist Name"> <input class="form-suit" id="name-label" type="text" placeholder="Last Name">
+    </div>
+    <div class="form-group"><label for="email">Email</label><input id="email-label" class="form-suit" type="email"></div>
+    <div class="form-group"><label for="number">Age</label><input id="number-label" class="form-suit" type="number" min="16" max="60" /></div>
+    <div class="form-group">
+        <label for="gender">Gender</label>
+        <select name="dropdown" id="dropdown" class="form-suit" >
+        <option value="">Select an option</option>
+        <option value="1">Female</option>
+        <option value="2">Male</option>
+    </select>
+</div>
+<div class="form-group">
+<h2>Schedule Preference</h2>
+</div>
+<div class="form-group">
+    <input name="schedule" type="checkbox" />
+    <label for="schedule"> Morning Session - 8:00AM to 11:00AM</label>
+</div>
+<div class="form-group">
+    <input name="schedule" type="checkbox" />
+    <label for="schedule"> Morning Session - 11:00AM to 1:00PM</label>
+</div>
+<div class="form-group">
+    <input name="schedule" type="checkbox" />
+    <label for="schedule"> Afternoon Session - 5:00PM to 7:30PM</label>
+</div>
+<div class="form-group">
+    <input name="schedule" type="checkbox" />
+    <label for="schedule"> Evening Session - 7:30PM to 9:30PM</label>
+</div>
+<div class="form-group">
+    <h2>Class Level</h2>
+    <div class="form-group">
+        <input name="status" type="radio" />
+        <label for="status"> Level 1 - Beginner Class</label>
+    </div>
+    <div class="form-group">
+        <input name="status" type="radio">
+        <label for="status"> Level 2 - Intermediate Class</label>
+    </div>
+    <div class="form-group">
+        <input name="status" type="radio">
+        <label for="status"> Level 3 - Advanced Class</label>
+    </div>
+    <div class="form-group">
+        <input name="status" type="radio">
+        <label for="status"> All Level Class</label>
+    </div>
+</div>
+    <div class="form-group"><p>Please share any additional comments or suggestions for improving future classes.</p></div>
+    <div class="form-group"><textarea name="" id="" rows="5" cols="50" class="textarea" ></textarea></label></div>
+    <div class="form-group"><button id="submit" value="Submit" class="submit-button">SUBMIT FORM</button></div>
+    </form>
+</div>
+</body>
+</html>
